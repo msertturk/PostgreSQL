@@ -1,0 +1,1 @@
+--select bolumad,ad from bolum cross join fakulte 

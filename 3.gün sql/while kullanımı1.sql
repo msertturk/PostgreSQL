@@ -1,0 +1,14 @@
+-- do $$
+-- declare 
+	
+-- 	toplam int:=0;
+-- 	sayac int:=1;
+-- begin
+-- 	while sayac<=10
+-- 	loop
+-- 	raise notice 'sayac: %',sayac;
+-- 	toplam:= sayac + toplam;
+-- 	sayac := sayac + 1;
+-- 	end loop;
+-- 	raise notice 'sayıların toplamı: %',toplam;
+-- 	end $$;

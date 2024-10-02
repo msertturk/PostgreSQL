@@ -1,0 +1,10 @@
+--insert into bolum2 values (6,'biyoloji')
+-- select ASCII ('A')
+--select concat_ws ('*','günaydın ', 'sql ' , 'dersleri ')
+-- select left ('Merhaba Dünya',3)
+-- select right ('merhaba dünya',6)
+-- select length ('selamın aleyküm')
+-- select id,replace(ad,'i','ı') from bolum3
+-- select reverse (ad) from bolum3
+-- select substring ('mehmet mert sertturk',4,2)
+-- select lower (ad) , upper (ad) from bolum3

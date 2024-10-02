@@ -1,0 +1,42 @@
+-- do $$
+-- declare x int:=20;
+--         y int:=5;
+-- 	    toplam int;
+-- 		fark int;
+-- 		carpim int;
+-- 		bolum int;
+-- begin
+--         toplam:=x+y;
+-- 		fark:=x-y;
+-- 		carpim:=x*y;
+-- 		bolum:=x/y;
+-- raise notice 'sayı 1: %',x;
+-- raise notice 'sayı 2: %',y;
+-- raise notice 'toplam: %',toplam;
+-- raise notice 'fark: %',fark;
+-- raise notice 'carpim: %',carpim;
+-- raise notice 'bolum: %',bolum;
+-- end$$;
+
+-- do $$
+-- declare toplam int;
+--         toplam2 int;
+-- begin
+-- toplam:=(select count (*) from dersler);
+-- toplam2:=(select count (*) from dersler where length(dersad)>10);
+-- raise notice 'Derslerin toplam kayıt sayısı: %',toplam;
+-- raise notice 'Derslerin adı 10 karakterden uzun olan ders sayısı : %',toplam2;
+-- end $$;
+
+-- do $$
+-- declare toplam1 int;
+--         toplam2 int;
+-- 		arda_kalan int;
+-- begin
+-- toplam1:=(select count(*)from dersler);
+-- toplam2:=(select count(*)from dersler where length(dersad)>10);     ÖRNEK YAPILDI
+-- arda_kalan:=toplam1-toplam2;
+-- raise notice'derslerin kayıt sayısı:%',toplam1;
+-- raise notice'adi 10 karakterden uzun olan ders sayısı:%',toplam2;
+-- raise notice'arda kalan dersler:%',arda_kalan;
+-- end $$

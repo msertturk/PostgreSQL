@@ -1,0 +1,3 @@
+-- count max min sum Avg
+-- select count (*) from musteri
+-- select count (*) from musteri where sehir='Ankara' and bakiye>5000

@@ -1,0 +1,2 @@
+--update musteri set bakiye=bakiye+bakiye*0.1 where meslek=(select ıd from meslek where ad='mühendis')
+-- select * from musteri where sehir='Ankara' and meslek=(select ıd from meslek where ad= 'öğretmen')

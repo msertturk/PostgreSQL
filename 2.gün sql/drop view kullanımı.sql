@@ -1,0 +1,5 @@
+-- create view view2
+-- as
+-- select * from dersler
+-- select * from view2
+-- drop view view2 

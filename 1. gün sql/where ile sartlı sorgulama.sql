@@ -1,0 +1,1 @@
+select * from musteri where sehir='Kahramanmaras' and ıd=4 or sehir='Adana' or soyad='kaya'

@@ -1,0 +1,5 @@
+-- select  min(bakiye) from musteri
+-- select  max(bakiye) from musteri
+-- select  max(bakiye)-min(bakiye) from musteri
+-- select max (bakiye) from musteri where sehir='Ankara'
+--update musteri set bakiye=5000 where ad='Ayşe' and sehir='Ankara'

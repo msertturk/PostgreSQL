@@ -1,0 +1,3 @@
+-- select current_date *yazılan günün tarihi
+-- select current_time *yazlılan anın saati
+-- select now() *yerel saati veriyor

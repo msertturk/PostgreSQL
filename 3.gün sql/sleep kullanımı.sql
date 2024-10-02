@@ -1,0 +1,2 @@
+-- select pg_sleep(3);
+-- SELECT * FROM public."kitaplar "   sleep komutu uyku 3 sn geç geliyor misal 

@@ -1,0 +1,5 @@
+-- select * from musteri where ad like '%a%'
+-- select * from musteri where ad like 'A%'
+-- select * from musteri where ad like '%Ey%'
+-- select * from musteri where ad like '%n'
+-- select * from musteri where ad not like '%e%'

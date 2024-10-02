@@ -1,0 +1,3 @@
+-- select * from fakulte
+-- select id,ad,bolumad  from fakulte right join  bolum on fakulte.id=bolum.bolumf
+--select id,ad,bolumad  from bolum right join  fakulte on fakulte.id=bolum.bolumf
